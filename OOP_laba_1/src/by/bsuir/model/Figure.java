@@ -1,0 +1,16 @@
+package by.bsuir.model;
+
+import by.bsuir.Point;
+
+public abstract class Figure implements Graphics {
+    protected Point onePoint;
+
+    Figure(Point onePoint){
+        this.onePoint = onePoint;
+    }
+
+    @Override
+    public void draw() {
+        System.out.println("Необходимо уточнее о фигуре");
+    }
+}

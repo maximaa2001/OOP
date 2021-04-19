@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="by.bsuir.model.LandTransport">
+    <void property="maxSpeed">
+     <int>7</int>
+    </void>
+    <void property="name">
+     <string>7</string>
+    </void>
+    <void property="volumeEngine">
+     <float>7.0</float>
+    </void>
+    <void property="way">
+     <object class="by.bsuir.Way">
+      <void property="fromPoint">
+       <string>7</string>
+      </void>
+      <void property="toPoint">
+       <string>7</string>
+      </void>
+     </object>
+    </void>
+    <void property="weight">
+     <float>7.0</float>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="by.bsuir.model.AirTransport">
+    <void property="countEngine">
+     <int>8</int>
+    </void>
+    <void property="maxSpeed">
+     <int>8</int>
+    </void>
+    <void property="name">
+     <string>8</string>
+    </void>
+    <void property="way">
+     <object class="by.bsuir.Way">
+      <void property="fromPoint">
+       <string>8</string>
+      </void>
+      <void property="toPoint">
+       <string>8</string>
+      </void>
+     </object>
+    </void>
+    <void property="weight">
+     <float>8.0</float>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="by.bsuir.model.PassengerCar">
+    <void property="countPassenger">
+     <int>9</int>
+    </void>
+    <void property="maxSpeed">
+     <int>9</int>
+    </void>
+    <void property="name">
+     <string>9</string>
+    </void>
+    <void property="volumeEngine">
+     <float>9.0</float>
+    </void>
+    <void property="way">
+     <object class="by.bsuir.Way">
+      <void property="fromPoint">
+       <string>9</string>
+      </void>
+      <void property="toPoint">
+       <string>9</string>
+      </void>
+     </object>
+    </void>
+    <void property="weight">
+     <float>9.0</float>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

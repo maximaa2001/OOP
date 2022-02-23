@@ -1,5 +1,6 @@
 package by.bsuir;
 
+import by.bsuir.interfaces.SerList;
 import by.bsuir.model.Transport;
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import javafx.collections.ObservableList;
@@ -7,15 +8,11 @@ import javafx.collections.ObservableList;
 import java.util.ArrayList;
 
 @JsonAutoDetect
-public class SerializableList {
+public class SerializableList implements SerList {
 
-    public ArrayList<Transport> arrayList;
+    private ArrayList<Transport> arrayList = new ArrayList<>();
 
     public SerializableList(){}
-
-    public SerializableList(ArrayList<Transport> arrayList){
-        this.arrayList = arrayList;
-    }
 
     public SerializableList(ObservableList<Transport> observableList){
         ArrayList<Transport> arrayList = new ArrayList<>(observableList);
